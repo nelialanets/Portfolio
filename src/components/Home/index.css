@@ -37,6 +37,7 @@ h1::after{
     animation: fadeIn 1s 1.17s backwards;
 }
 .flat-btn, Link{
+    cursor: pointer;
     color: white;
     font-size: 1.5em;
     font-weight: 400;
@@ -44,6 +45,7 @@ h1::after{
     text-decoration: none;
     padding: 10px 18px;
     border: 1px solid white;
+    border-radius: 5px;
     margin-top: 25px;
     transition: 0.5s;
     float: left;
@@ -52,6 +54,17 @@ h1::after{
     text-transform: uppercase;
 }
 
+/* .flat-btn, Link:before{
+    background: linear-gradient(
+        to right,
+        #817f80,
+        #181818,
+        #e3f2e4,
+        #7f7f7d,
+        
+    );
+  
+} */
 h2{
     color: white;
 }
