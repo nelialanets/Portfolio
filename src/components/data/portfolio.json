@@ -1,0 +1,23 @@
+{
+    "portfolio":[
+        {
+        "cover": "./portfolio/crypto.png",
+        "title":"Crypto-Hasher",
+        "description":"React, CSS, Material UI, Firebase ",
+        "url": "https://github.com/nelialanets/crypto-hasher"
+        },
+        {
+            "cover": "./portfolio/mern.png",
+            "title":"Rendevous",
+            "description":"React, CSS, Bootstrap, MondoDB, MERN stack ",
+            "url": "https://github.com/PredatorR10/Rendevous"
+            },
+            {
+                "cover": "./portfolio/crypto.png",
+                "title":"Crypto-Hasher",
+                "description":"React, CSS, Material UI, Firebase ",
+                "url": "https://github.com/nelialanets/crypto-hasher"
+                }
+                
+    ]
+}
