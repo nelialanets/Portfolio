@@ -13,10 +13,16 @@
             "url": "https://github.com/PredatorR10/Rendevous"
             },
             {
-                "cover": "./portfolio/crypto.png",
-                "title":"Crypto-Hasher",
-                "description":"React, CSS, Material UI, Firebase ",
-                "url": "https://github.com/nelialanets/crypto-hasher"
+                "cover": "./portfolio/calendar.png",
+                "title":"Calendar ",
+                "description":"React, CSS, Material UI, ReactCalendar",
+                "url": "https://github.com/nelialanets/React-Calendar-App"
+                },
+                {
+                    "cover": "./portfolio/python.png",
+                    "title":"Calendar ",
+                    "description":"Python, CSS, Django,PostgresSQL",
+                    "url": "https://github.com/nelialanets/car_app"
                 }
                 
     ]
