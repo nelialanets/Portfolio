@@ -1,5 +1,5 @@
 .portfolio-page{
-    padding-left:100px;
+   padding-left:100px;
     padding-right: 50px;
     width:calc(100% );
     position: initial;
@@ -107,3 +107,16 @@
 }
 
 }
+
+@media(min-width: 768px){
+    .portfolio-page{
+      justify-content:flex-start;
+      padding-left:1rem;
+    }
+  }
+@media(min-width: 768px){
+    .images-container{
+      justify-content:flex-start;
+      padding-left:1rem;
+    }
+  }

@@ -11,11 +11,11 @@ function Layout (){
         <div className='App'>
     
         <div className="page">
-          
             <span className='tags top-tags'> &lt;html&gt;
             <br />
-            <span > &lt;body&gt;</span>
+            <span className='bottom-tag-body' > &lt;body&gt;</span>
             </span>
+            < Outlet />
         <HomeComponent />
          <span className="tags bottom-tags">
     &lt;/body&gt;

@@ -1,16 +1,17 @@
 .home-page .text-zone{
     position: absolute;
-    left: 10%;
-    top:50%;
+    left: 5%;
+    top:45%;
     transform: translateY(-50%);
     width: 40%;
     max-height: 90%;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
 }
 
 h1{
     color: white;
-    font-size: 53px;
+    font-size: 60px;
     margin: 0;
     font-weight: 400;
 }
@@ -22,7 +23,7 @@ h1::before{
     font-size: 18px;
     position: absolute;
     margin-top: -30px;
-    left: 55px;
+    left: 5px;
     opacity: 0.5;
 }
 h1::after{
@@ -32,7 +33,7 @@ h1::after{
     font-size: 18px;
     position: absolute;
     margin-top: 18px;
-    margin-left: 20px;
+    margin-left: 10px;
     opacity: 0.5;
     animation: fadeIn 1s 1.17s backwards;
 }
@@ -52,19 +53,18 @@ h1::after{
     animation: fadeIn 1s 1.8s backwards;
     white-space: nowrap;
     text-transform: uppercase;
+
+    &:hover{
+        border: solid green;
+        
+    }
 }
 
-/* .flat-btn, Link:before{
-    background: linear-gradient(
-        to right,
-        #817f80,
-        #181818,
-        #e3f2e4,
-        #7f7f7d,
-        
-    );
-  
-} */
 h2{
     color: white;
+    margin-top: 20px;
+    font-size: 15px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, cursive;
+    letter-spacing: 2px;
+    animation: fadeIn 1s 1.8s backwards;
 }

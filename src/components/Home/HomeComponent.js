@@ -2,24 +2,21 @@ import React, { useEffect } from "react";
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import AnimatedLetters from "../AnimatedLetters/AnimatedLetters";
-import'./index.css'
-// import Cube from "../CubeAnimation/Cube";
+import'./index.scss'
 // import ContactForm from "../ContactForm/ContactForm";
 
 const HomeComponent=()=>{
 
     const[letterClass, setLetterClass]=useState('text-animate')
     const nameArray =['N','e','l','i','a', '']
-    const jobArray=['W','e','b', '', 'd','e','v','e','l','o','p','e','r']
+    const jobArray=['w','e','b', '', 'd','e','v','e','l','o','p','e','r']
 
-//     // useEffect(()=>{
-//     //     return setTimeout(()=>{
-//     //         setLetterClass('text-animate')
-//     //     },4000)
-//     // },[])
-//    useEffect(()=>{
-//        setLetterClass()
-//    })
+    // useEffect(()=>{
+    //     return setTimeout(()=>{
+    //         setLetterClass("text-animate-hover")
+    //     },4000)
+    // }, [])
+
     return(
         <>
        
@@ -27,7 +24,7 @@ const HomeComponent=()=>{
             
             <div className="text-zone">
                 <h1>
-                    <span className={letterClass} >H</span>
+                    <span className={letterClass}>H</span>
                     <span className={`${letterClass} _12`}>i,</span>
 
                       <br /> 
@@ -40,10 +37,10 @@ const HomeComponent=()=>{
                     <br /> 
                     <AnimatedLetters letterClass={letterClass} 
                     strArray={jobArray}
-                    idx={22} />
+                    idx={18} />
                 </h1>
                 <h2>
-                    Fontend Developer/ JS and React Expert
+                    Fontend Developer/ JS and React
                 </h2>
                 <Link  to='/contact' className="flat-btn">
                 Contact Me

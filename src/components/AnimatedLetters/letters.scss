@@ -1,6 +1,6 @@
-.text-animate {
+.text-animate{
     display: inline-block;
-    // opacity: 5px;
+    opacity: 0;
     animation: bounceIn 1s 1s;
     animation-fill-mode: forwards;
     min-width: 10px;
@@ -11,19 +11,17 @@
     min-width: 10px;
     display:inline-block;
     animation-fill-mode:both;
+
     &:hover{
         animation: rubberBand 1s;
-        color: blue;
+        color: #dddd;
     }
 
     }
 
-// .text-animate-hover:hover {
-//     animation: rubberBand 1s;
-//         color: blue;
 
-// }
-@for $i from 1 through 30{
+//to make letters to appear one by one 
+@for $i from 1 through 35{
     .text-animate._#{$i}{
         animation-delay:#{$i / 10}s;
     }

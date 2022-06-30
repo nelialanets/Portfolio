@@ -9,19 +9,19 @@
         {
             "cover": "./portfolio/mern.png",
             "title":"Rendevous",
-            "description":"React, CSS, Bootstrap, MondoDB, MERN stack ",
+            "description":"React, Bootstrap, MERN stack ",
             "url": "https://github.com/PredatorR10/Rendevous"
             },
             {
                 "cover": "./portfolio/calendar.png",
                 "title":"Calendar ",
-                "description":"React, CSS, Material UI, ReactCalendar",
+                "description":"React, CSS, ReactCalendar",
                 "url": "https://github.com/nelialanets/React-Calendar-App"
                 },
                 {
                     "cover": "./portfolio/python.png",
                     "title":"Calendar ",
-                    "description":"Python, CSS, Django,PostgresSQL",
+                    "description":"Python,CSS, Django,PostgresSQL",
                     "url": "https://github.com/nelialanets/car_app"
                 }
                 

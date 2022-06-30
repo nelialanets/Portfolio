@@ -2,35 +2,38 @@
 @import url('https://fonts.googleapis.com/css2?family=Cormorant:wght@300&family=Montserrat:wght@300;400;800&display=swap');
 .App-main {
     flex-grow: 1;
+
   }
-  
   
 .page{
     width: 100%;
-    height: 90%;
+    height: 90vh;
     position: absolute; 
     display: flex;
  }
 .top-tags{
     bottom: auto;
-    top:  100px;
+    top:  15px;
   
 }
 .tags{
     color: white;
-    opacity: 0.3;
+    opacity: 0.2;
     position: absolute;
     bottom:0;
-    left: 140px;
+    left: 55px;
     font-size: 25px;
     font-style: italic;
     font-family:' La Belle Aurore',cursive;
 }
 .bottom-tag-html{
-    margin-left: -80px;
+    margin-left: -50px;
 }
 
 .bottom-tag-html link{
     
 }
 
+.bottom-tag-body{
+    margin-left:15px;
+}

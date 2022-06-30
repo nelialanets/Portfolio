@@ -1,13 +1,18 @@
 import React, { useRef } from "react";
-import { useState } from "react";
+import { useState , useEffect} from "react";
 import './contact.scss'
 import emailjs from '@emailjs/browser';
+import AnimatedLetters from "../AnimatedLetters/AnimatedLetters"
 
 import { MapContainer, TileLayer, useMap, Popup,Marker } from 'react-leaflet'
 
 export default function ContactForm(){
 
+    // const [letterClass, setLetterClass]=useEffect('text-animate')
+    // const contactArr=["C","o", "n", "t", "a", "c", "t", " ", "m", "e"]
 
+
+    
     const position = [51.505, -0.09]
     const form=useRef()
     
@@ -46,6 +51,10 @@ export default function ContactForm(){
 
             <div className="text-zone">
             <h1 className="contact-me-h1">Contact Me </h1>
+            {/* <AnimatedLetters 
+            letterClass ={letterClass}
+            strArray={[contactArr]}
+            idx={15} /> */}
             <div className="contact-form">
                 <form ref={form} onSubmit={sendEmail}>
                     <ul>
@@ -75,7 +84,7 @@ export default function ContactForm(){
                 </form>
            </div>
          </div>
-         <div className="info-map">
+         {/* <div className="info-map">
             NeliaDev
 
             <br />
@@ -93,7 +102,8 @@ export default function ContactForm(){
           </MapContainer> 
          </div>
      </div>
-     
+      */}
+     </div>
      </div>
     )
 }

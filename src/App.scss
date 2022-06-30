@@ -4,6 +4,8 @@
   box-sizing: border-box;
   font-family:'Roboto';
 } */
+@import "animate.css";
+
 .App-main {
   height: 100vh;
   flex-grow: 1;
@@ -12,5 +14,12 @@
   padding: 0;
   box-sizing: border-box;
   font-family:'Roboto'
+}
+
+@media(min-width: 768px){
+  .App-main{
+    justify-content:flex-start;
+    padding-left:1rem;
+  }
 }
 
