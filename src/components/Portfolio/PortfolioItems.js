@@ -29,9 +29,10 @@ export default function PortfolioItems() {
     )
   }
   return (
+    
     <div className='container portfolio-page'>
-      
-      <h1 className ='page-title'>Projects </h1>
+      <div className="break-line"></div>
+      <h1 className ='page-title-project'>Projects </h1>
 
       <div> {renderPortfolio(Data.portfolio)} </div>
     </div>

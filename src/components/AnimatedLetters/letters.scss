@@ -3,18 +3,21 @@
     opacity: 0;
     animation: bounceIn 1s 1s;
     animation-fill-mode: forwards;
-    min-width: 10px;
+    min-width: 15px;
 }
 
 .text-animate-hover
 {
-    min-width: 10px;
+    min-width: 15px;
     display:inline-block;
     animation-fill-mode:both;
 
     &:hover{
         animation: rubberBand 1s;
-        color: #dddd;
+        background: #00FF00;
+        background: linear-gradient(to left, #00FF00 0%, #00FFFF 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
     }
 
     }

@@ -49,7 +49,7 @@ export default function ContactForm(){
     
         <div className="contact-page">
 
-            <div className="text-zone">
+            <div className="text-contact">
             <h1 className="contact-me-h1">Contact Me </h1>
             {/* <AnimatedLetters 
             letterClass ={letterClass}

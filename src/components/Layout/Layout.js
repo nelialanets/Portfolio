@@ -16,13 +16,12 @@ function Layout (){
             <span className='bottom-tag-body' > &lt;body&gt;</span>
             </span>
             < Outlet />
-        <HomeComponent />
          <span className="tags bottom-tags">
     &lt;/body&gt;
     <br />
     <span className='bottom-tag-html'>&lt;/html&gt;</span>
     </span>
-    < Cube />
+    
         </div>
 
         </div>
