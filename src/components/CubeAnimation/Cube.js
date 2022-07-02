@@ -1,5 +1,5 @@
 import './index.scss'
-import { faReact, faHtml5, faCss3, faAngular, faJsSquare, faNodeJs, faPython } from '@fortawesome/free-brands-svg-icons';
+import { faReact, faHtml5, faCss3,  faJsSquare, faNodeJs, faPython } from '@fortawesome/free-brands-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import React from "react";
 import './index.scss'

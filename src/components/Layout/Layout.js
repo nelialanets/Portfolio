@@ -1,10 +1,5 @@
 import './index.css'
-import Footer from '../Footer/Footer'
 import { Outlet } from 'react-router-dom'
-import HomeComponent from '../Home/HomeComponent'
-import Cube from '../CubeAnimation/Cube'
-import ContactForm from '../Contact/ContactForm'
-import Portfolio from '../Portfolio/PortfolioItems'
 function Layout (){
     return(
         <>

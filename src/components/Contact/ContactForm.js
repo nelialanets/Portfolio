@@ -1,15 +1,9 @@
 import React, { useRef } from "react";
-import { useState , useEffect} from "react";
 import './contact.scss'
 import emailjs from '@emailjs/browser';
-import AnimatedLetters from "../AnimatedLetters/AnimatedLetters"
+
 export default function ContactForm(){
 
-    // const [letterClass, setLetterClass]=useEffect('text-animate')
-    // const contactArr=["C","o", "n", "t", "a", "c", "t", " ", "m", "e"]
-
-
-    
     const position = [51.505, -0.09]
     const form=useRef()
     
@@ -81,25 +75,6 @@ export default function ContactForm(){
                 </form>
            </div>
          </div>
-         {/* <div className="info-map">
-            NeliaDev
-
-            <br />
-            Palo Alto, CA
-            <br />
-            <span>nelialanets@gmail.com</span>
-         </div>
-         <div className="map-wrap">
-         <MapContainer center={[44.96366, 19.61045]} zoom={13} scrollWheelZoom={false}>
-            <TileLayer
-    url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
-            <Marker position={position}>
-              <Popup>Sloba lives here, come over for a cup of coffee</Popup>
-            </Marker>
-          </MapContainer> 
-         </div>
-     </div>
-      */}
      </div>
      </div>
     )

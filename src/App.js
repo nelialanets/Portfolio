@@ -1,12 +1,11 @@
 import React from 'react';
 import './index.css';
 import './App.scss'
-import { BrowserRouter, Routes, Route} from 'react-router-dom';
+import { Routes, Route} from 'react-router-dom';
 import Layout from './components/Layout/Layout';
 import NavBar from './components/Navbar/NavBar';
 import Resume from './pages/Resume/Resume';
 import HomeComponent from './components/Home/HomeComponent';
-import Footer from './components/Footer/Footer';
 import PortfolioItems from './components/Portfolio/PortfolioItems';
 import { Link } from 'react-router-dom'
 
