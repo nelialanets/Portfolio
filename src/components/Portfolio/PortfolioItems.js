@@ -1,7 +1,6 @@
 import React from 'react'
 import './index.scss'
 import Data from "../../components/data/portfolio.json"
-import AnimatedLetters from "../AnimatedLetters/AnimatedLetters"
 
 
 export default function PortfolioItems() {
