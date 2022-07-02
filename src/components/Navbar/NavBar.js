@@ -14,8 +14,8 @@ function NavBar(){
             <i className="fa fa-bars"></i>
              </div>
              <div className="nav-links"> 
-             <Link className="link" to='/projects'>Projects</Link>
-             <Link  className="link" to='/contact'>Contact</Link>
+             <a  href="#projects2" className="link">Projects</a>
+             <a  href="#contact" className="link">Contact</a>
              <Link  className="link" to='/resume'>Resume</Link>
              </div>
              </nav>

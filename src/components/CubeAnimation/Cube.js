@@ -8,24 +8,26 @@ const  Cube=()=>{
     return(
            <div className="stage-cube-count">
                     <div className="cubespinner">
+                        
                         <div className="face1">
-                         <FontAwesomeIcon icon={faPython} color='#F06529'/>
+                         <FontAwesomeIcon className="iconsStyle" icon={faPython} color='#F06529'/>
                         </div>
                          <div className="face2">
-                            <FontAwesomeIcon icon={faHtml5} color='#28A4D9' />
+                            <FontAwesomeIcon className="iconsStyle" icon={faHtml5} color='#28A4D9' />
                         </div>
                         <div className="face3">
-                            <FontAwesomeIcon icon={faCss3} color='#DD0031' />
+                            <FontAwesomeIcon  className="iconsStyle" icon={faCss3} color='#DD0031' />
                         </div>
                         <div className="face4">
-                            <FontAwesomeIcon icon={faReact} color='#5ED4F4' />
+                            <FontAwesomeIcon  className="iconsStyle" icon={faReact} color='#5ED4F4' />
                         </div>
                         <div className="face5">
-                            <FontAwesomeIcon icon={faJsSquare} color='#EFD810' />
+                            <FontAwesomeIcon  className="iconsStyle" icon={faJsSquare} color='#EFD810' />
                         </div>
                         <div className="face6">
-                            <FontAwesomeIcon icon={faNodeJs} color='#00FF00' />
+                            <FontAwesomeIcon  className="iconsStyle" icon={faNodeJs} color='#00FF00' />
                         </div> 
+                       
                     </div>
             </div>
     )

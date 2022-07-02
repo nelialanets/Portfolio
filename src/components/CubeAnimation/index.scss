@@ -23,7 +23,7 @@
         width: 450px;
         height: 3px;
         border: 1px solid #ccc;
-        // background: rgb(255,255,255, 0.4);
+        background: rgb(255,255,255, 0.4);
         font-size: 300px;
         display: flex;
         justify-content: center;
@@ -72,3 +72,176 @@
         transform: rotateX(90deg)
     }
     }
+
+    
+    @media screen and (max-width: 900px){
+        .stage-cube-count{
+            width: 80%;
+            height: 40vh;
+            top: 12%;
+            position: relative;
+            right: 5%;
+            margin-left: 25%;
+            overflow: hidden;
+            font-size: 25%;
+        
+            margin-bottom:5%;
+        }
+        .cubespinner{
+            animation-name:spincube;
+            animation-timing-function: ease-in-out;
+            animation-iteration-count: infinite;
+            animation-duration: 12s;
+            transform-style: preserve-3d;
+            transform-origin: 100px 100px 0;
+            margin-left: calc((50% - 100px)) ;
+        
+            div{
+                position:absolute;
+                width: 200px;
+                height: 1px;
+                margin-top: 15%;
+                box-shadow:  0 0 20px 0px rgb(11, 10, 15);
+                background: rgb(255,255,255, 0.4);
+                font-size: 100px;
+                justify-content: center;
+                align-items: center;
+            }
+                .face1{
+                    transform: translateZ(90px);
+                }
+                .face2{
+                    transform: rotateY(90deg) translateZ(85px);
+                }
+                .face3{
+                    transform: rotateY(90deg) rotateX(90deg) translateZ(85px);
+                }
+                .face4{
+                    transform: rotateY(180deg) rotateZ(90deg) translateZ(85px);
+                }
+                .face5{
+                    transform: rotateY(-90deg) rotateZ(90deg) translateZ(85px) ;
+                }
+                .face6{
+                    transform: rotateX(-90deg) translateZ(85px);
+                }
+            }
+        
+    }
+    @media screen and (max-width: 1180px){
+        .stage-cube-count{
+            border:white;
+            width: 50%;
+            height: 40vh;
+            top: 5%;
+            padding-top: 10%;
+            position: relative;
+            right: 0;
+            margin-top:10%;
+            margin-left: 5%;
+            overflow: hidden;
+        }
+        
+        .cubespinner{
+            animation-name:spincube;
+            animation-timing-function: ease-in-out;
+            animation-iteration-count: infinite;
+            animation-duration: 12s;
+            transform-style: preserve-3d;
+            transform-origin: 100px 100px 0;
+            margin-left: calc((50% - 100px)) ;
+        
+            div{
+                position:absolute;
+                width: 300px;
+                height: 3px;
+                border: 1px solid #ccc;
+                background: rgb(255,255,255, 0.4);
+                font-size: 150px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                box-shadow:  0 0 20px 0px rgb(11, 10, 15);
+            }
+                .face1{
+                    transform: translateZ(80px);
+                }
+                .face2{
+                    transform: rotateY(90deg) translateZ(80px);
+                }
+                .face3{
+                    transform: rotateY(90deg) rotateX(90deg) translateZ(80px);
+                }
+                .face4{
+                    transform: rotateY(180deg) rotateZ(90deg) translateZ(80px);
+                }
+                .face5{
+                    transform: rotateY(-90deg) rotateZ(90deg) translateZ(80px) ;
+                }
+                .face6{
+                    transform: rotateX(-90deg) translateZ(80px);
+                }
+            }
+        }
+    
+        
+ @media screen and (max-width: 800px){
+    .stage-cube-count{
+        width: 50%;
+        height: 50vh;
+        top: 0;
+        padding-top: 10%;
+        position: relative;
+        right: 0;
+        margin-left: 15%;
+        overflow: hidden;
+        
+    }
+    
+    .cubespinner{
+        animation-name:spincube;
+        animation-timing-function: ease-in-out;
+        animation-iteration-count: infinite;
+        animation-duration: 12s;
+        transform-style: preserve-3d;
+        transform-origin: 100px 100px 0;
+        margin-left: calc((50% - 100px)) ;
+    
+        div{
+            position:absolute;
+            width: 250px;
+            height: 3px;
+            border: 1px solid #ccc;
+            background: rgb(255,255,255, 0.4);
+            font-size: 150px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            box-shadow:  0 0 20px 0px rgb(11, 10, 15);
+            margin-bottom:5%;
+        }
+            .face1{
+                transform: translateZ(60px);
+            }
+            .face2{
+                transform: rotateY(90deg) translateZ(60px);
+            }
+            .face3{
+                transform: rotateY(90deg) rotateX(90deg) translateZ(60px);
+            }
+            .face4{
+                transform: rotateY(180deg) rotateZ(90deg) translateZ(60px);
+            }
+            .face5{
+                transform: rotateY(-90deg) rotateZ(90deg) translateZ(60px) ;
+            }
+            .face6{
+                transform: rotateX(-90deg) translateZ(60px);
+            }
+        }
+    
+            }
+            @media screen and (max-width: 600px){
+            
+            
+            }

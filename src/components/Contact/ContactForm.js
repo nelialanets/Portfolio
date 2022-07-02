@@ -3,9 +3,6 @@ import { useState , useEffect} from "react";
 import './contact.scss'
 import emailjs from '@emailjs/browser';
 import AnimatedLetters from "../AnimatedLetters/AnimatedLetters"
-
-import { MapContainer, TileLayer, useMap, Popup,Marker } from 'react-leaflet'
-
 export default function ContactForm(){
 
     // const [letterClass, setLetterClass]=useEffect('text-animate')
@@ -45,7 +42,7 @@ export default function ContactForm(){
 
     return(
         
-        <div className="containerContact">
+        <div  id ='contact' className="containerContact">
     
         <div className="contact-page">
 
@@ -55,7 +52,7 @@ export default function ContactForm(){
             letterClass ={letterClass}
             strArray={[contactArr]}
             idx={15} /> */}
-            <div className="contact-form">
+            <div id="first"className="contact-form">
                 <form ref={form} onSubmit={sendEmail}>
                     <ul>
                         <li className="half">

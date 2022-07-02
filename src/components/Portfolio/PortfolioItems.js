@@ -1,12 +1,18 @@
 import React from 'react'
 import './index.scss'
 import Data from "../../components/data/portfolio.json"
-
+import AnimatedLetters from "../AnimatedLetters/AnimatedLetters"
+import {useEffect, useState} from 'react'
+import Layout from "../Layout/Layout"
 export default function PortfolioItems() {
 
   const renderPortfolio =(portfolio)=>{
+
+
     return(
-      <div className='images-container'> 
+    
+      <div  className='images-container'> 
+
       {
         portfolio.map((port,idx)=>{
           return(
@@ -30,11 +36,12 @@ export default function PortfolioItems() {
   }
   return (
     
-    <div className='container portfolio-page'>
+    <div  id='projects2' className='container portfolio-page'>
       <div className="break-line"></div>
-      <h1 className ='page-title-project'>Projects </h1>
-
+       <h1 className ='page-title-project'>Projects </h1> 
       <div> {renderPortfolio(Data.portfolio)} </div>
+  
     </div>
+
   )
 }

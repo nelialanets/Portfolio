@@ -5,24 +5,21 @@ import { BrowserRouter, Routes, Route} from 'react-router-dom';
 import Layout from './components/Layout/Layout';
 import NavBar from './components/Navbar/NavBar';
 import Resume from './pages/Resume/Resume';
-import Contact from './pages/ContactPage/Contact';
-import Projects from './pages/ProjectPage/Projects';
 import HomeComponent from './components/Home/HomeComponent';
 import Footer from './components/Footer/Footer';
+import PortfolioItems from './components/Portfolio/PortfolioItems';
+import { Link } from 'react-router-dom'
 
 function App() {
   return (
     < div className='App-main'>
 <NavBar />
      <Routes>
-    {/* <Route path='/' element={<Layout />}></Route> */}
-    <Route index element={<HomeComponent />} />
+      <Route path='/' element={<HomeComponent />}></Route> 
     <Route path='/resume' element={<Resume />} />
-    <Route path='/contact' element={<Contact />} />
-    <Route path='/projects' element={<Projects />} />
+    <Route path='/portfolio' element={<PortfolioItems />} />
   </Routes>
   <div>
-  <Footer />
   </div>
     </div>
   );

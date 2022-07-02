@@ -2,11 +2,13 @@ import React, { useEffect } from "react";
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import AnimatedLetters from "../AnimatedLetters/AnimatedLetters";
+ import { FaAngleDoubleDown} from "react-icons/fa";
 import'./index.scss'
 import ContactForm from "../Contact/ContactForm";
 import Cube from "../CubeAnimation/Cube";
 import Layout from "../Layout/Layout"
 import PortfolioItems from "../../components/Portfolio/PortfolioItems"
+import ScrollDown from "../Scroll/ScrollDown"
 
 const HomeComponent=()=>{
 
@@ -48,9 +50,9 @@ const HomeComponent=()=>{
                 <Link  to='/contact' className="flat-btn">
                 Contact Me
                 </Link>
-               
             </div>
-        </div>
+            <ScrollDown />
+            </div>
   <PortfolioItems />
         <ContactForm />
         </>
