@@ -1,7 +1,7 @@
 import React from 'react'
 import './index.scss'
 import Data from "../../components/data/portfolio.json"
-
+import ScrollDown  from "../Scroll/ScrollDown"
 
 export default function PortfolioItems() {
 
@@ -26,6 +26,7 @@ export default function PortfolioItems() {
                 <button className="btn"
                 onClick={() =>window.open (port.url)}>View</button>
               </div>
+           
             </div>
 
           )
@@ -35,13 +36,15 @@ export default function PortfolioItems() {
     )
   }
   return (
+    <>
     
     <div  id='projects2' className='container portfolio-page'>
       <div className="break-line"></div>
        <h1 className ='page-title-project'>Projects </h1> 
       <div> {renderPortfolio(Data.portfolio)} </div>
-  
     </div>
+    <ScrollDown />
+    </>
 
   )
 }

@@ -8,7 +8,7 @@ import Cube from "../CubeAnimation/Cube";
 import Layout from "../Layout/Layout"
 import PortfolioItems from "../../components/Portfolio/PortfolioItems"
 import ScrollDown from "../Scroll/ScrollDown"
-
+import Footer from "../Footer/Footer"
 const HomeComponent=()=>{
 
     const[letterClass, setLetterClass]=useState('text-animate')
@@ -54,6 +54,7 @@ const HomeComponent=()=>{
             </div>
   <PortfolioItems />
         <ContactForm />
+        <Footer />
         </>
     )
 }

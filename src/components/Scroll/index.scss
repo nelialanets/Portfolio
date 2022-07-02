@@ -3,8 +3,6 @@
 section {
     display:flex;
      position: relative;
-     width: 100%;
-     height: 100%;
      
    }
    section::after {
@@ -12,10 +10,8 @@ section {
      bottom: 0;
      left: 0;
      content: '';
-     width: 100%;
-     height: 80%;
-     background: rgb(79,157,7);
-     background: linear-gradient(243deg, rgba(79,157,7,0.9486388305322129) 31%, rgba(15,221,162,1) 100%);
+
+     
    }
    section h4 {
      position: absolute;
@@ -46,10 +42,7 @@ section {
    }
    .demo a:hover {
      opacity: .5;
-  
-     background: rgb(79,157,7);
-     background: linear-gradient(243deg, rgba(79,157,7,0.9486388305322129) 31%, rgba(15,221,162,1) 100%);
-   }
+     background: rgb(79,157,7);}   
  
    #projects a {
      padding-top: 60px;
