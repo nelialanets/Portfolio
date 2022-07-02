@@ -2,8 +2,8 @@ import React from 'react'
 import './index.scss'
 import Data from "../../components/data/portfolio.json"
 import AnimatedLetters from "../AnimatedLetters/AnimatedLetters"
-import {useEffect, useState} from 'react'
-import Layout from "../Layout/Layout"
+
+
 export default function PortfolioItems() {
 
   const renderPortfolio =(portfolio)=>{
@@ -19,7 +19,8 @@ export default function PortfolioItems() {
             <div className="image-box" key={idx}>
               <img 
               src={port.cover}
-              className="portfolio-image" />
+              className="portfolio-image"
+              alt="image1" />
               <div className='content'>
                 <p className="title">{port.title}</p>
                 <h4 className="description">{port.description}</h4>

@@ -4,7 +4,6 @@ import emailjs from '@emailjs/browser';
 
 export default function ContactForm(){
 
-    const position = [51.505, -0.09]
     const form=useRef()
     
     const sendEmail=(e)=>{
