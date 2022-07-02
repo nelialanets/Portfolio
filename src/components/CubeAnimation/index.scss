@@ -20,10 +20,10 @@
 
     div{
         position:absolute;
-        width: 450px;
+        // width: 450px;
         height: 3px;
-        border: 1px solid #ccc;
-        background: rgb(255,255,255, 0.4);
+        // border: px solid #ccc;
+        // background: rgb(255,255,255, 0.4);
         font-size: 300px;
         display: flex;
         justify-content: center;
@@ -98,12 +98,12 @@
         
             div{
                 position:absolute;
-                width: 200px;
+                // width: 200px;
                 height: 1px;
                 margin-top: 15%;
-                box-shadow:  0 0 20px 0px rgb(11, 10, 15);
-                background: rgb(255,255,255, 0.4);
-                font-size: 100px;
+                // box-shadow:  0 0 20px 0px rgb(11, 10, 15);
+                // background: rgb(255,255,255, 0.4);
+                font-size: 150px;
                 justify-content: center;
                 align-items: center;
             }
@@ -153,11 +153,11 @@
         
             div{
                 position:absolute;
-                width: 300px;
+                // width: 300px;
                 height: 3px;
-                border: 1px solid #ccc;
-                background: rgb(255,255,255, 0.4);
-                font-size: 150px;
+                // border: 1px solid #ccc;
+                // background: rgb(255,255,255, 0.4);
+                font-size: 200px;
                 display: flex;
                 justify-content: center;
                 align-items: center;
@@ -209,10 +209,10 @@
     
         div{
             position:absolute;
-            width: 250px;
+            // width: 250px;
             height: 3px;
-            border: 1px solid #ccc;
-            background: rgb(255,255,255, 0.4);
+            // border: 1px solid #ccc;
+            // background: rgb(255,255,255, 0.4);
             font-size: 150px;
             display: flex;
             justify-content: center;

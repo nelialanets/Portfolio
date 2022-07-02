@@ -46,9 +46,9 @@ const HomeComponent=()=>{
                 <h2>
                 I’m a  full stack software developer with a focuse on fronend  based in Bay Area.
                 </h2>
-                <Link  to='/contact' className="flat-btn">
+                <a href='#contact' className="flat-btn">
                 Contact Me
-                </Link>
+                </a>
             </div>
             <ScrollDown />
             </div>
