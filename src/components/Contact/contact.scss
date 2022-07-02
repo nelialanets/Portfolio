@@ -16,8 +16,8 @@ ul{
     
     
 }
-    li{
-        padding: 5px;
+    li{;
+        padding: 10px;
         list-style: none;
         margin: 0;
         margin-bottom: 10px;
@@ -35,18 +35,23 @@ input[type='email']{
     color: white;
     padding:  0 20px;
     box-sizing: border-box;
+    font-family:Arial;
 }
 textarea{
     width: 70%;
     border: 1px solid white;
     color: azure;
     background-color: black;
+    font-family:Arial;
     height: 40px;
-    font-size: 20px;
+    font-size: 15px;
     padding: 20px;
     min-height: 150px;
     box-sizing: border-box;
 
+}
+.place-holder{
+    font-family:Arial;
 }
 .flat-btn2{
     color: white;
@@ -82,7 +87,7 @@ textarea{
             white-space: nowrap;
             text-transform: uppercase;
             &:hover{
-                border: solid green;
+               border: solid green;
                 
             }
         
@@ -100,3 +105,5 @@ textarea{
     margin-left: 10%;
     margin-bottom: 5%;
 }
+
+

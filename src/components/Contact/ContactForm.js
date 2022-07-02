@@ -41,29 +41,28 @@ export default function ContactForm(){
 
             <div className="text-contact">
             <h1 className="contact-me-h1">Contact Me </h1>
-            {/* <AnimatedLetters 
-            letterClass ={letterClass}
-            strArray={[contactArr]}
-            idx={15} /> */}
+            
             <div id="first"className="contact-form">
                 <form ref={form} onSubmit={sendEmail}>
                     <ul>
                         <li className="half">
                             <input type="text"
                              name="user_name"
+                             placeholder="Your name"
                              required />
                         </li> 
                          <li className="half">
                             <input type="email"
                              name="user_email" 
                              required
-                              />
+                             placeholder="Your Email:"
+                              /> 
                          </li> 
                         <li >
                            <textarea
                            
                            name="message"
-                           placeholder="Enter your message"
+                           placeholder="Hey! How are you?"
                            required
                            />  
                          </li> 
