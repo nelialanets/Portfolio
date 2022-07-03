@@ -19,8 +19,8 @@ About() {
         <div className='about-container'>
             <span id='text-bio'>
                 <p className="text-bio">
-                     I'm a full-stack developer from Ukraine based in San Francisco, CA.
-                       I have serious passion for front-end development, animations and creating intuitive, dynamic user experiences.<br />
+                     Nelia is a full-stack developer from Ukraine based in San Francisco, CA.
+                       She has a serious passion for front-end development, animations and creating intuitive, dynamic user experiences.<br />
                        <br />
                        Growing up in a small town in Ukraine just outside of Poltava, Nelia enjoyed the long summers working on her family’s farm - but her dreams of a bigger life quickly took hold of her as she left home to study abroad. 
                        <br />
