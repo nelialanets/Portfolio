@@ -19,8 +19,20 @@ About() {
         <div className='about-container'>
             <span id='text-bio'>
                 <p className="text-bio">
-                     I'm a full-stack developer for Ukraine based in San Francisco, CA.
-                       I have serious passion for front-end development, animations and creating intuitive, dynamic user experiences.
+                     I'm a full-stack developer from Ukraine based in San Francisco, CA.
+                       I have serious passion for front-end development, animations and creating intuitive, dynamic user experiences.<br />
+                       <br />
+                       Growing up in a small town in Ukraine just outside of Poltava, Nelia enjoyed the long summers working on her family’s farm - but her dreams of a bigger life quickly took hold of her as she left home to study abroad. 
+                       <br />
+                        She has a passion for learning and self-improvement and currently holds two Master's Degrees in International Economics and Educational Counseling, respectively. 
+                        <br />
+                        During the pandemic, life was put into perspective and her creative soul yearned to be fulfilled.
+                        <br />
+                          A close friend introduced her to CSS design, where she was hooked. 
+                          <br />
+                           She quickly enrolled and completed a boot camp at General Assembly. 
+                            Nelia looks to continue her new found passion for design by aiding clients in their creative process for web development.
+
                         <h3 > QUALIFICATIONS: </h3>
                          <span className= "h3-color"> LANGUAGES:</span> JavaScript, Python, HTML5, CSS3
                            <br />
@@ -35,9 +47,9 @@ About() {
                           <br />
                           To see more information on my educational backgroud please see my  <a href='/resume'>resume</a>
 
-                      <h3>Outside of CODE:</h3> I love to grab my surf board and take a quick surf trip to Hawaii or Costa Rica or other parts of the world. 
-                      Go for a free dive is the warm ocen or get stuck somewhere in the middle of a jangle.
-                      Next surf trip: Bali (When? When I save up enough of money saved up for a trip :))
+                          <h3>Outside of CODE:</h3> She loves to grab her surfboard and catch a wave in Hawaii, Costa Rica, or other tropical parts of the world. 
+                           She enjoys free diving in the warm ocean or getting stuck somewhere in the middle of the jungle.
+
                 </p>
                 </span>
             <div className="imageAbout">
