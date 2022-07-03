@@ -102,14 +102,14 @@ h2{
     h1{
         color: white;
         font-size: 50px;
-        margin: 1px;
+        margin: 1;
         font-weight: 660;
     }
     
     h1::before{
         position: absolute;
         margin-top: -40px;
-        left: 1%;
+        left: 5%;
         opacity: 0.5;
     }
 

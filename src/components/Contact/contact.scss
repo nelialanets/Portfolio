@@ -109,21 +109,21 @@ textarea{
 
 
 // Button settings
-$btn-size:                100px;
+$btn-size:                50px;
 $btn-arrowsize:           $btn-size / 4;
 
 // Button colors
-$btn-color:               hotpink;
+$btn-color:               rgb(250, 243, 247);
 $btn-bg:                  #111;
-$btn-border:              hotpink;
+$btn-border:              rgb(221, 216, 218);
 
 // Button hover colors
-$btn-hover-color:         #111;
-$btn-bg-hover:            white;
-$btn-hover-border-color:  white;
+$btn-hover-color:         rgb(56, 255, 42);
+$btn-bg-hover:            rgb(9, 9, 9);
+$btn-hover-border-color:  rgb(68, 92, 64);
 
 .arrowbtn {
-    position: absolute;
+    position:absolute;
     width: $btn-size;
     height: $btn-size;
     background: $btn-bg;
@@ -131,7 +131,8 @@ $btn-hover-border-color:  white;
     border-radius: $btn-size;
     color: $btn-color;
     cursor: pointer;
-    left: 50%;
+    left: 95%;
+
     line-height: $btn-size;
     margin-left: -($btn-size / 2);
     transition: all 0.25s ease-in-out;
@@ -152,7 +153,7 @@ $btn-hover-border-color:  white;
   }
   
   .arrowbtn-up {
-    top: 20px;
+    
     &:after {
       margin-left: -($btn-arrowsize * .5);
       margin-top: -($btn-arrowsize * .25);
