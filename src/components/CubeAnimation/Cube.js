@@ -6,7 +6,7 @@ import './index.scss'
 
 const  Cube=()=>{
     return(
-           <div className="stage-cube-count">
+           <div  id ='cube' className="stage-cube-count">
                     <div className="cubespinner">
                         
                         <div className="face1">

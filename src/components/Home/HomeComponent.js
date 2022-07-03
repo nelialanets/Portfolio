@@ -25,7 +25,7 @@ const HomeComponent=()=>{
         <>
         <Layout />
        <Cube />
-        <div className="container home-page">
+        <div  className="container home-page">
             
             <div className="text-zone">
                 <h1>
