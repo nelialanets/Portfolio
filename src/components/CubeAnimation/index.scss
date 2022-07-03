@@ -187,13 +187,13 @@
         
  @media screen and (max-width: 800px){
     .stage-cube-count{
-        width: 50%;
+        width: 70%;
         height: 50vh;
         top: 0;
         padding-top: 10%;
         position: relative;
         right: 0;
-        margin-left: 15%;
+        margin-left: 25%;
         overflow: hidden;
         
     }
@@ -213,30 +213,30 @@
             height: 3px;
             // border: 1px solid #ccc;
             // background: rgb(255,255,255, 0.4);
-            font-size: 150px;
+            font-size: 125px;
             display: flex;
             justify-content: center;
             align-items: center;
             box-shadow:  0 0 20px 0px rgb(11, 10, 15);
-            margin-bottom:5%;
+            margin-bottom:1%;
         }
             .face1{
                 transform: translateZ(60px);
             }
             .face2{
-                transform: rotateY(90deg) translateZ(60px);
+                transform: rotateY(90deg) translateZ(50px);
             }
             .face3{
-                transform: rotateY(90deg) rotateX(90deg) translateZ(60px);
+                transform: rotateY(90deg) rotateX(90deg) translateZ(50px);
             }
             .face4{
-                transform: rotateY(180deg) rotateZ(90deg) translateZ(60px);
+                transform: rotateY(180deg) rotateZ(90deg) translateZ(50px);
             }
             .face5{
-                transform: rotateY(-90deg) rotateZ(90deg) translateZ(60px) ;
+                transform: rotateY(-90deg) rotateZ(90deg) translateZ(50px) ;
             }
             .face6{
-                transform: rotateX(-90deg) translateZ(60px);
+                transform: rotateX(-90deg) translateZ(50px);
             }
         }
     

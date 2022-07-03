@@ -44,7 +44,7 @@
         font-size: 2px;
     }
     .text-zone{
-        margin-top:70%;
+        margin-top:40%;
         font-size: 14px;
         margin-bottom:50%;
         
@@ -52,6 +52,10 @@
     .h1{
         font-size: 1%;
         margin-left: px;
+    }
+    .top-tags{
+        bottom: auto;
+        top: -5%;
     }
 }
 @media screen and (max-width: 600px){

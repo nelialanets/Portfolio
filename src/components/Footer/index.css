@@ -1,6 +1,5 @@
 .footer-container{
     background-color:black;
-    
     padding: 20px;
     display: flex;
     justify-content: center;
@@ -31,3 +30,40 @@
     li a svg:hover{
         color: green;
     }
+
+
+@media screen and (max-width: 800px){
+   
+    .footer-container{
+        background-color:black;
+        padding: 25px;
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        font-family: Arial, Helvetica, sans-serif;
+        display: flex;
+        margin-top: 10%;
+        }
+        h4{
+            color: aliceblue;
+            display: flex;
+            justify-content: center;
+            display: inline;
+            padding: 5px;
+        }
+        .icons{
+            display: flex;
+            padding: 5px;
+            width: 100%;
+            position: relative;
+            list-style: none;
+            padding: 0;
+        }
+        li a {
+            padding: 7px;
+            font-size: 35px;
+        }
+        li a svg:hover{
+            color: green;
+        }
+}
