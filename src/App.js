@@ -2,7 +2,7 @@ import React from 'react';
 import './index.css';
 import './App.scss'
 import { Routes, Route} from 'react-router-dom';
-import NavBar from './components/Navbar/NavBar';
+
 import Resume from './pages/Resume/Resume';
 import HomeComponent from './components/Home/HomeComponent';
 import PortfolioItems from './components/Portfolio/PortfolioItems';
@@ -11,7 +11,7 @@ import PortfolioItems from './components/Portfolio/PortfolioItems';
 function App() {
   return (
     < div className='App-main'>
-<NavBar />
+
      <Routes>
       <Route path='/' element={<HomeComponent />}></Route> 
     <Route path='/resume' element={<Resume />} />

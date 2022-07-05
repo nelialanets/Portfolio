@@ -3,6 +3,7 @@
     align-items: center;
     justify-content: center;
     margin-top: 2%;
+    margin-top: 5%;
    
 }
 h1, h2,h3,li, p {
@@ -21,4 +22,32 @@ h1, h2,h3,li, p {
 }
 .main-container h3, h4{
     margin-left: 15%;
+}
+
+nav{
+    background-color: rgba(0,0,0,0.9);
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    display: flex;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+}
+.logo{
+    font-weight: 600;
+    font-size: 25px;
+    color: aliceblue;
+    flex:50%;
+     padding: 10px; 
+     display: flex;
+     justify-content:left;
+     align-items: center;
+     padding-right: 5px;
+  }
+.link1{
+    text-decoration: none;
+    color: white;
+    font-style: italic;
+    font-family:' La Belle Aurore',cursive;
 }

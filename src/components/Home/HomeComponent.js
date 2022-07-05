@@ -2,6 +2,7 @@ import React, { useEffect } from "react";
 import { useState } from "react";
 import AnimatedLetters from "../AnimatedLetters/AnimatedLetters";
 import'./index.scss'
+import NavBar from "../Navbar/NavBar"
 import ContactForm from "../Contact/ContactForm";
 import Cube from "../CubeAnimation/Cube";
 import Layout from "../Layout/Layout"
@@ -23,6 +24,7 @@ const HomeComponent=()=>{
     }, [])
     return(
         <>
+        <NavBar />
         <Layout />
        <Cube />
         <div  className="container home-page">

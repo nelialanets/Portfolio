@@ -1,9 +1,17 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 // import Footer from '../componenets/Footer/Footer'
 import './index.css'
 function Resume() {
   return (
-    <div className='container-resume'>
+    <>
+    <nav >
+    <div className="logo">
+     <Link className="link1 "to='/'>NeliaDev</Link>
+     </div>
+   
+     </nav>
+    <div className='container-resume'>      
  <body>
   <div className='main-container'>  
 
@@ -104,6 +112,7 @@ Kharkov State University of Food Technology and Trade, Kharkiv, Ukraine
 </div> 
         </body>
             </div>
+            </>
   )
   
 }
