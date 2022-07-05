@@ -7,7 +7,7 @@ function NavBar(){
         <>
         
         <nav >
-            <div className="logo">
+            <div  id="nav-arrow" className="logo">
              <Link className="link1 "to='/'>NeliaDev</Link>
              </div>
              <div className="manu-icon">

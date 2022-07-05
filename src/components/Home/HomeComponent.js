@@ -27,9 +27,9 @@ const HomeComponent=()=>{
         <NavBar />
         <Layout />
        <Cube />
-        <div  className="container home-page">
+        <div className="container home-page">
             
-            <div className="text-zone">
+            <div  className="text-zone">
                 <h1>
                    <AnimatedLetters letterClass={letterClass} 
                    strArray={intro}

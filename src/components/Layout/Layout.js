@@ -3,7 +3,7 @@ import { Outlet } from 'react-router-dom'
 function Layout (){
     return(
         <>
-        <div className='App'>
+        <div className='App' >
     
         <div className="page">
             <span className='tags top-tags'> &lt;html&gt;

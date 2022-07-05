@@ -71,7 +71,7 @@ export default function ContactForm(){
                          </li> 
                      </ul>
                 </form>
-               <a href='home-page'> <div  class="arrowbtn arrowbtn-up"> </div></a>
+               <a href="#nav-arrow"> <div  class="arrowbtn arrowbtn-up"> </div></a>
            </div>
          </div>
      </div>
