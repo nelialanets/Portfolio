@@ -5,13 +5,13 @@
     height: 100%;
     margin:0;
     padding:100px;
-    margin-bottom:5px;
-    margin-bottom: 1%;
+    margin-bottom: 3%;
+    margin: auto;
 }
 
 .imageAbout{
     display: flex; 
-    margin-bottom: 10%;
+    margin-bottom: 5%;
 }
 #imageAbout{
    display: flex;
@@ -25,14 +25,18 @@
 }
 .about-h1{
     margin-left: 5%;
+    margin-bottom: -5%;
 }
 
 .text-bio{
+    line-height:1.5;
     display: inline-block;
-    margin: 5px;
+    margin: 2px;
     padding: 15px;
     margin-right: 30%;
     font-size: 17px;
+    
+   
 }
 
 .sky {
@@ -76,6 +80,7 @@
   }
   
   .text-bio{
+    line-height:1.5;
     width: 100%;
     position: relative;
     margin-top: 1%;
@@ -293,3 +298,65 @@
       transform: translateX(270px);
     }
   }
+  ///Scroll///
+/// 
+section {
+  display:flex;
+   position: relative;
+   
+ }
+ section::after {
+   position: absolute;
+   bottom: 0;
+   left: 0;
+   content: '';
+
+   
+ }
+ section h4 {
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   z-index: 4;
+   -webkit-transform: translate(-50%, -50%);
+   transform: translate(-50%, -50%);
+   color: white;
+   font : normal 300 64px/1 'Josefin Sans', sans-serif;
+   text-align: center;
+   white-space: nowrap;
+   color:green;
+ }
+ .demo a {
+   position: absolute;
+   bottom: 20px;
+   left: 50%;
+   z-index: 2;
+   display: inline-block;
+   -webkit-transform: translate(0, -50%);
+   transform: translate(0, -50%);
+   font : normal 400 20px/1 'Josefin Sans', sans-serif;
+   letter-spacing: .1em;
+   text-decoration: none;
+   transition: opacity .3s;
+   
+ }
+ .demo a:hover {
+   opacity: .5;
+   background: rgb(79,157,7);}   
+
+ #about a {
+   padding-top: 60px;
+ }
+ #about a span {
+   position: absolute;
+   top: 0;
+   left: 50%;
+   width: 24px;
+   height: 24px;
+   margin-left: -12px;
+   border-left: 1px solid #fff;
+   border-bottom: 1px solid #fff;
+   -webkit-transform: rotate(-45deg);
+   transform: rotate(-45deg);
+   box-sizing: border-box;
+ }

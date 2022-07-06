@@ -10,7 +10,7 @@ export default function PortfolioItems() {
 
     return(
     
-      <div  className='images-container'> 
+      <div  id="portfolio"  className='images-container'> 
 
       {
         portfolio.map((port,idx)=>{

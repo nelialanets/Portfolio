@@ -15,7 +15,7 @@ const HomeComponent=()=>{
     const[letterClass, setLetterClass]=useState('text-animate')
     const intro =["H","i"," ","my"," ", "n","a","m","e", " ", "i","s", " ", 'N','e','l','i','a'," ," ]
     const nameArray =[" ",]
-    const jobArray=['w','e','b', '', 'd','e','v','e','l','o','p','e','r']
+    const jobArray=['W','e','b', '', 'D','e','v','e','l','o','p','e','r']
 
     useEffect(()=>{
         return ()=> setTimeout(()=>{
@@ -45,8 +45,8 @@ const HomeComponent=()=>{
                     strArray={jobArray}
                     idx={18} />
                 </h1>
-                <h2>
-                I’m a  full stack software developer with a focuse on fronend  based in Bay Area.
+                <h2 className='h2-tag'>
+                I’m a  full stack software developer with a focus on front end  based in Bay Area.
                 </h2>
                 <a href='#about' className="flat-btn">
                 View my work 

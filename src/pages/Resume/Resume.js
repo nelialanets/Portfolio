@@ -11,7 +11,7 @@ function Resume() {
      </div>
    
      </nav>
-    <div className='container-resume'>      
+    <div id="resume2" className='container-resume'>      
  <body>
   <div className='main-container'>  
 

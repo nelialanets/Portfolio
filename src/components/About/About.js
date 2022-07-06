@@ -56,7 +56,9 @@ About() {
                 <img id="imageAbout" src="./portfolio/nelia.png" alt='profile' />
                  </div>
         </div>
-        <ScrollDown />
+        <section id="about" class="demo">
+     <a href="#portfolio"><span></span></a>
+    </section>
     </div>
   )
 }

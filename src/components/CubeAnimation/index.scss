@@ -1,11 +1,12 @@
 .stage-cube-count{
+   
     width: 50%;
     height: 85vh;
-    top: 5%;
+     top: auto;
     padding-top: 20%;
     position: absolute;
     right: 0;
-    margin-left: 10px;
+    margin-left: px;
     overflow: hidden;
 }
 
@@ -20,10 +21,7 @@
 
     div{
         position:absolute;
-        // width: 450px;
         height: 3px;
-        // border: px solid #ccc;
-        // background: rgb(255,255,255, 0.4);
         font-size: 300px;
         display: flex;
         justify-content: center;
