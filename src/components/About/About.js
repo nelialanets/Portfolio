@@ -1,6 +1,6 @@
 import React from 'react'
 import './index.scss'
-import ScrollDown from '../Scroll/ScrollDown'
+
 export default function 
 About() {
   return (
