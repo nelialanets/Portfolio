@@ -19,7 +19,14 @@ nav{
      justify-content:left;
      align-items: center;
      padding-right: 5px;
+
+     .logo:hover{
+        color: green;
+      }
   }
+
+
+
 .link1{
     text-decoration: none;
     color: white;

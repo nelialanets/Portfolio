@@ -1,4 +1,4 @@
-import './index.css'
+import './index.scss'
 import React from 'react'
 import { Link } from 'react-router-dom'
 
@@ -7,7 +7,7 @@ function NavBar(){
         <>
         
         <nav >
-            <div  id="nav-arrow" className="logo">
+            <div  id="nav-arrow" className="logo" >
              <Link className="link1 "to='/'>NeliaDev</Link>
              </div>
              <div className="manu-icon">
@@ -19,8 +19,6 @@ function NavBar(){
              <Link  className="link" to='/resume'>Resume</Link>
              </div>
              </nav>
-        
-        
         
         </>
 

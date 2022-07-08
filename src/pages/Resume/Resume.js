@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-// import Footer from '../componenets/Footer/Footer'
-import './index.css'
+import Footer from '../../components/Footer/Footer'
+import './index.scss'
 function Resume() {
   return (
     <>
@@ -9,7 +9,12 @@ function Resume() {
     <div className="logo">
      <Link className="link1 "to='/'>NeliaDev</Link>
      </div>
-   
+     <div id="resume2" className='container-resume'>  
+   <a href =" " ><div class="arrow"> 
+  <div class="arrow-top"></div>
+  <div class="arrow-bottom"></div>
+</div></a>
+</div>
      </nav>
     <div id="resume2" className='container-resume'>      
  <body>
@@ -78,7 +83,7 @@ Full Stack Developer| Github: nelialanets/First-app-API  </p>
 </ul>
 <p>OTHER PROFESSIONAL EXPERIENCE</p>
 
-<h3>Center Manager</h3>
+<p>Center Manager</p>
 <p>Center for Special and Textual Analysis(CESTA),  Stanford University, Stanford, CA 2/14/2022 -Present </p>  
 <ul className='resume-ul'>         
 <li>Sucessully oversee and coordinate Undergraduate Research Internship Program by managing internship recruitment and application processes, collaborate with a faculty from across the campus on the internship matching process, manage internship funding awards and student hiring process; also
@@ -103,15 +108,16 @@ General Assembly
 24-week full stack web development immersive program covering modern, in-demand 		    
 programming technologies and fundamental Computer Science knowledge
 
-<h4>Master of Science in Educational Counseling	 12/15/2017				  		      
-  University of La Verne, La Verne, CA
-  </h4>	
+<h4 class='education-degree'>Master of Science in Educational Counseling	 12/15/2017		
+University of La Verne, La Verne, CA</h4>
+  
 
-<h3>Masters of Art in International Economics 06/30/2013</h3>
-Kharkov State University of Food Technology and Trade, Kharkiv, Ukraine 			 	       
+<h4 class='education-degree'>Masters of Art in International Economics  --- 06/30/2013</h4>
+<h4>Kharkov State University of Food Technology and Trade, Kharkiv, Ukraine </h4>		 	       
 </div> 
         </body>
             </div>
+            <Footer />
             </>
   )
   

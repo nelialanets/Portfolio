@@ -45,7 +45,6 @@ About() {
                           <span className= "h3-color"> TOOLS:</span> Git, Visual Studio Code, Postman
                           <br />
                           <br />
-                          To see more information on my educational backgroud please see my  <a href='/resume'>resume</a>
 
                           <h3>Outside of CODE:</h3> She loves to grab her surfboard and catch a wave in Hawaii, Costa Rica, or other tropical parts of the world. 
                            She enjoys free diving in the warm ocean or getting stuck somewhere in the middle of the jungle.

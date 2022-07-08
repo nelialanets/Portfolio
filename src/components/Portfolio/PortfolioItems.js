@@ -40,11 +40,13 @@ export default function PortfolioItems() {
     
     <div  id='projects2' className='container portfolio-page'>
       <div className="break-line"></div>
-       <h1 className ='line-1 anim-typewriter'>Projects </h1> 
+       <h1 className ='' id="title3">Projects </h1> 
       <div> {renderPortfolio(Data.portfolio)} </div>
     </div>
-    <ScrollDown />
-    </>
+    <section id="projects" class="demo">
+    <a href="#contact" > <span></span></a>
+    </section>
+   </>
 
   )
 }

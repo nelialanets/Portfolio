@@ -5,22 +5,23 @@
     position: initial;
     height:100%;
     overflow:hidden;
-    margin-top:5%;
+    margin-top:10%;
+    margin-bottom: 5%;
 
     h1.page-title{
         margin-left: 100px;
-        margin-top: 0px; 
+        margin-top: 10%; 
     }
 
 .images-container{
     display:flex;
     gap: 15px;
     flex-wrap:wrap;
-    padding-bottom:10px;
+    padding-bottom:50px;
    
 }
 .image-box{
-    margin-top: 100px;
+    margin-top: 50px;
     position: relative;
     flex:1 1 20%;
     height:400px;
@@ -47,11 +48,11 @@
             rgba(255,255,255,0.5)0,
             rgba(0,0,0,0.1)
         );
-        bottom: 35px;
+        bottom: 50px;
     }
     .title{
         margin-bottom:0;
-        margin-top:0;
+        margin-top:1px;
         color:white;
         font-size:24px;
         
