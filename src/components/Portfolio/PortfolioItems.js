@@ -1,7 +1,7 @@
 import React from 'react'
 import './index.scss'
 import Data from "../../components/data/portfolio.json"
-import ScrollDown  from "../Scroll/ScrollDown"
+
 
 export default function PortfolioItems() {
 
