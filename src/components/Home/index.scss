@@ -1,13 +1,8 @@
-// .home-page{
-    
-//     left: 5%;
-//     top:45%;
-//     transform: translateY(-50%);
-//     width: 40%;
-//     max-height: 90%;
-//     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    
-// }
+.home-page{
+    margin-top: 40%;
+    left: 5%;
+    transform: translateY(-50%);
+}
 
  .text-zone{
         line-height:normal;
@@ -91,11 +86,19 @@ h1::after{
   
 
 @media screen and (max-width: 800px){
+    
+
+    .home-page{
+        margin-top: 90%;
+        left: 5%;
+        transform: translateY(-50%);
+    }
+    
     .text-zone{
         margin-left: 12%;
         margin-top:40%;
         margin-bottom:25%;
-        // transform: translateY(-50);
+        transform: translateY(-50%);
         width: 75%;
         max-height: 90%;
         font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -127,7 +130,7 @@ h1::after{
         margin-top: 18px;
         margin-left: 20px;
         opacity: 0.5;
-        // animation: fadeIn 1s 1.17s backwards;
+        animation: fadeIn 1s 1.17s backwards;
     }
     .flat-btn, Link{
             cursor: pointer;
