@@ -1,7 +1,7 @@
 .about-container{
-    margin-top:10%;
+    margin-top:5%;
     display:flex;
-    width:90%;
+    width:95%;
     height: 100%;
     margin:0;
     padding:100px;
@@ -16,11 +16,11 @@
 }
 #imageAbout{
    display: flex;
-   width: 100%;
+   width: 110%;
    height: 40%;
    border: 1ps solid black;
    border-radius: 5%;
-   margin-left: 10%;
+   margin-left: 1%;
    
   
 }
@@ -32,7 +32,6 @@
 .text-bio{
     line-height:1.5;
     display: inline-block;
-    margin: 2px;
     padding: 15px;
     margin-right: 25%;
     font-size: 25px;
