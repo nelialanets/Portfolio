@@ -1,5 +1,12 @@
 {
     "portfolio":[
+
+        {
+            "cover": "./portfolio/portfolio.png",
+            "title":"Carzing",
+            "description":"React, Saas, Netlify, JS",
+            "url": "https://www.nafania.io/"
+        },
         {
         "cover": "./portfolio/crypto.png",
         "title":"Crypto-Hasher",
@@ -20,10 +27,9 @@
                 },
                 {
                     "cover": "./portfolio/python.png",
-                    "title":"Calendar ",
+                    "title":"CarZing",
                     "description":"Python,CSS, Django,PostgresSQL",
                     "url": "https://github.com/nelialanets/car_app"
                 }
-                
     ]
 }
