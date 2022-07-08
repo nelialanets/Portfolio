@@ -95,7 +95,7 @@ h1::after{
         margin-left: 12%;
         margin-top:40%;
         margin-bottom:25%;
-        transform: translateY(-50%);
+        // transform: translateY(-50);
         width: 75%;
         max-height: 90%;
         font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -127,7 +127,7 @@ h1::after{
         margin-top: 18px;
         margin-left: 20px;
         opacity: 0.5;
-        animation: fadeIn 1s 1.17s backwards;
+        // animation: fadeIn 1s 1.17s backwards;
     }
     .flat-btn, Link{
             cursor: pointer;
@@ -166,8 +166,4 @@ h1::after{
         font-size: 14px;
         margin-left: 10px;
     }
-}
-@media screen and (max-width: 600px){
-
-
 }
