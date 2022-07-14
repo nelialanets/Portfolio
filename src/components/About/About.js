@@ -36,7 +36,7 @@ About() {
                         <h3 > QUALIFICATIONS: </h3>
                          <span className= "h3-color"> LANGUAGES:</span> JavaScript, Python, HTML5, CSS3
                            <br />
-                           <span className= "h3-color"> FRAMEWORK / LIBRARIES: </span> Express, Django, React, Gatsby, Bootstrap, Materialize
+                           <span className= "h3-color"> FRAMEWORK / LIBRARIES: </span> Express, Django, React, Gatsby,Sass, Materialize
                           <br />
                           <span className= "h3-color"> DATABASES/BACKENDS:</span> PostgreSQL, MongoDB, Firebase
                           <br />
