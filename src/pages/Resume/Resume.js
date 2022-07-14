@@ -23,7 +23,7 @@ function Resume() {
   <header className='resume-header'>
         <h1 id='h1tag'>Nelia's Resume</h1>
         <p>Date Updated: 6/1/2021</p>
-        <p>Download a pdf copy <a href='https://drive.google.com/drive/folders/1pLAH-8kgqMksJ2N_FSyo5lxmGzO9k8Tb'>here: </a> </p>
+        <p>Download a pdf copy <a href='https://drive.google.com/file/d/1dTqBcw4YtnoD1XfYZz-2RtGTsPkbyq0j/view?usp=sharing'>here: </a> </p>
         </header>
 <hr />
 <p>TECHNICAL SKILLS & QUALIFICATIONS</p>
