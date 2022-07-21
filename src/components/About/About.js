@@ -36,23 +36,22 @@ About() {
                         <h3 > QUALIFICATIONS: </h3>
                          <span className= "h3-color"> LANGUAGES:</span> JavaScript, Python, HTML5, CSS3
                            <br />
-                           <span className= "h3-color"> FRAMEWORK / LIBRARIES: </span> Express, Django, React, Gatsby,Sass, Materialize
+                           <span className= "h3-color"> FRAMEWORK / LIBRARIES: </span> Express, Django, React, Gatsby, Bootstrap, Materialize
                           <br />
-                          <span className= "h3-color"> DATABASES/BACKENDS:</span> PostgreSQL, MongoDB, Firebase
+                          <span className= "h3-color"> DATABASES/BACKENDS:</span> GraphQL, PostgreSQL, MongoDB,  Firebase, Drupal, Contentful,
                           <br />
                           <span className= "h3-color">  METHODOLOGIES: </span> MVC, RESTful Architecture
                           <br />
-                          <span className= "h3-color"> TOOLS:</span> Git, Visual Studio Code, Postman
+                          <span className= "h3-color"> TOOLS:</span>Git, Visual Studio Code, Postman, Google Analytics
                           <br />
                           <br />
 
                           <h3>Outside of CODE:</h3> She loves to grab her surfboard and catch a wave in Hawaii, Costa Rica, or other tropical parts of the world. 
                            She enjoys free diving in the warm ocean or getting stuck somewhere in the middle of the jungle.
-
                 </p>
                 </span>
             <div className="imageAbout">
-                <img id="imageAbout" src="./portfolio/nelia.png" alt='profile' />
+                <img id="imageAbout" src="./portfolio/nelia.png" alt='profile'  className='left'/>
                  </div>
         </div>
         <section id="about" class="demo">
